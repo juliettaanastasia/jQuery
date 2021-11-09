@@ -1,0 +1,103 @@
+/*  import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.main{
+    background-image: url("https://images.unsplash.com/photo-1581578701651-1f7cff5960aa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80");
+    background-size: cover;
+    margin-top: -5px; 
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    padding: 20%;
+}
+.main h3{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.main .btn{
+    height: 50px;
+    width: 300px;
+    background-color: #af6aff;
+    border-color: #af6aff;
+    color: black;
+    border-radius: 5%;
+    padding: 5px;
+}
+.main .btn:hover{
+    background-color: rgb(255, 194, 124);
+    color:black;
+}
+
+.book{
+    background-image: url("https://images.unsplash.com/photo-1598738865030-9d1f0e8b7b5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80");
+    background-size: cover;
+    margin-top: -110px;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+.book h1{
+    color: rgb(247, 152, 152);
+}
+.book input{
+    height: 30px;
+    width: 500px;
+}
+.book form{
+    width: 500px;
+}
+
+.book .btn{
+    height: 50px;
+    width: 300px;
+    padding: 2px;
+    margin-top: 7px;
+    background-color: rgb(121, 27, 27);
+    border-color: rgb(121, 27, 27);
+    color: white;
+}
+.book .btp{
+    height: 40px;
+    width: 80px;
+    padding: 2px;
+    margin: 5%;
+    margin-left: -115px;
+    margin-top: -100px;
+    background-color: rgb(182, 64, 64);
+    border-color: rgb(182, 64, 64);
+    color: white;
+}
+.book .btp:hover{
+    background-color: rgb(233, 142, 142);
+    border-color: rgb(233, 142, 142);
+    color: rgb(0, 0, 0);
+}
+.book .btn:hover{
+    background-color: rgb(233, 142, 142);
+    border-color: rgb(233, 142, 142);
+    color: rgb(0, 0, 0);
+}
+.book .content{
+    margin: 10%;
+    display: inline-block;
+}
+.book label{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
